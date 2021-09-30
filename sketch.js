@@ -36,7 +36,7 @@ function draw() {
 
 
   ellipse(player.x+5, player.y-5, 20, 20);
-  // player.velocityY += 0.8;  
+  player.velocityY += 0.8;  
   console.log(player.y)
   camera.x = player.x;
   camera.y = player.y-100;
